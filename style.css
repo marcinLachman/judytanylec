@@ -1,0 +1,235 @@
+:root {
+  --primary: #1f3a73;
+  --secondary: #2d9b8e;
+  --text: #333;
+  --light-bg: white;
+  --border: #aaa7a7;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  color: var(--text);
+  background: #f9fafc;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  background: linear-gradient(135deg, #0a558c, #2fb7b2);
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.logo h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: var(--secondary);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* INTRO */
+.intro {
+  padding: 2rem;
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  margin: 1.5rem 0;
+}
+
+.btn-secondary,
+.btn-outline,
+.btn-whatsapp {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-secondary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-whatsapp {
+  background: var(--secondary);
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.studies {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  color: #555;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+
+/* hero-section */
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* PHOTO */
+.image-section {
+  padding: 6rem 2rem;
+}
+        
+/* ABOUT */
+.about {
+  /* flex: 1; */
+  background: var(--light-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem;
+}
+
+.about h3 {
+  margin-top: 0;
+}
+
+.principle {
+  margin-top: 1.5rem;
+  font-style: italic;
+  line-height: 2rem;
+}
+
+/* HELP */
+.help {
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--light-bg);
+}
+
+.help h3 {
+  margin-top: 0;
+}
+
+
+/* KONTAKT SECTION */
+
+.contact-section {
+  display: flex;
+}
+
+/* KONTAKT */
+.contact {
+  flex: 0 0 40%;
+  background: var(--light-bg);
+  border-radius: 12px;
+  margin: 2rem;
+}
+
+.contact h3 {
+  margin-top: 0;
+}
+.label {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  }
+
+  .contact-item {
+    margin-bottom: 1rem;
+  }
+    
+  .contact-item a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+  }
+    
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+
+  /* ORDER */
+
+  .order {
+    flex: 1;
+    background: var(--light-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem;
+  }
+
+  .order h3 {
+    margin-top: 0;
+    }
+  
+  .order-item {
+    margin: 1rem 0;
+  }
+
+.order-small {
+  font-size: 0.8rem;
+  color: #888585;
+}
+
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: #666;
+}
