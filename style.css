@@ -29,12 +29,13 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
   align-items: center;
 }
 
 .logo {
   display: flex;
+  flex: 50%;
   align-items: center;
   gap: 5px;
 }
@@ -59,7 +60,7 @@ header {
 
 .logo p {
   margin: 0;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #666;
 }
 
@@ -67,7 +68,7 @@ header {
 .btn-primary {
   background: var(--secondary);
   color: white !important;
-  padding: 8px 10px;
+  padding: 10px 12px;
   border-radius: 6px;
   font-size: 10px;
     text-decoration: none;
@@ -166,6 +167,7 @@ header {
   display: flex;
   flex-direction: column-reverse;
     padding: 0.5rem;
+    gap: 2rem;
 }
 
 /* KONTAKT */
