@@ -72,13 +72,43 @@ header {
   font-size: 10px;
 }
 
+/* hero-section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* PHOTO */
+.image-section {
+  margin: 2rem;
+}
+
+/* ABOUT */
+.about {
+  background: var(--light-bg);
+  margin: 0.2rem;
+}
+
+.about h3 {
+  font-size: 1.5rem;
+}
+
+.principle {
+  margin-top: 1.5rem;
+  font-style: italic;
+  line-height: 2rem;
+}
 /* INTRO */
 .intro {
-  padding: 2rem;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
 }
 
 .intro h2 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -108,47 +138,17 @@ header {
 }
 
 .studies {
-  list-style: none;
+  list-style: square;
   padding: 0;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+    margin: 1rem;
   color: #555;
-  font-size: 0.8rem;
-  line-height: 2rem;
-}
-
-/* hero-section */
-.hero-section {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-/* PHOTO */
-.image-section {
-  padding: 6rem 2rem;
-}
-        
-/* ABOUT */
-.about {
-  /* flex: 1; */
-  background: var(--light-bg);
-  padding: 2rem;
-  border-radius: 12px;
-  margin: 2rem;
-}
-
-.about h3 {
-  margin-top: 0;
-}
-
-.principle {
-  margin-top: 1.5rem;
-  font-style: italic;
+  font-size: 1rem;
   line-height: 2rem;
 }
 
 /* HELP */
 .help {
-  padding: 2rem;
   border-radius: 12px;
   background: var(--light-bg);
 }
