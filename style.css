@@ -67,9 +67,11 @@ header {
 .btn-primary {
   background: var(--secondary);
   color: white !important;
-  padding: 6px 8px;
+  padding: 8px 10px;
   border-radius: 6px;
   font-size: 10px;
+    text-decoration: none;
+      font-weight: 500;
 }
 
 /* hero-section */
@@ -162,19 +164,20 @@ header {
 
 .contact-section {
   display: flex;
+  flex-direction: column-reverse;
+    padding: 0.5rem;
 }
 
 /* KONTAKT */
 .contact {
-  flex: 0 0 40%;
   background: var(--light-bg);
   border-radius: 12px;
-  margin: 2rem;
 }
 
 .contact h3 {
   margin-top: 0;
 }
+
 .label {
   font-size: 0.9rem;
   margin-bottom: 0.25rem;
@@ -200,9 +203,8 @@ header {
   .order {
     flex: 1;
     background: var(--light-bg);
-    padding: 2rem;
     border-radius: 12px;
-    margin: 2rem;
+    padding: 0.5rem;
   }
 
   .order h3 {
