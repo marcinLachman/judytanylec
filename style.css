@@ -105,13 +105,14 @@ header {
 }
 /* INTRO */
 .intro {
-  background-color: rgba(238, 229, 229, 0.815);
+  background-color: #4a5568;
     border-radius: 6px;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .intro h2 {
+  color: white;
   text-align: center;
   font-size: 1.2rem;
   margin-bottom: 1rem;
