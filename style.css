@@ -29,7 +29,7 @@ header {
 
 .header-content {
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -227,8 +227,6 @@ header {
   color: #888585;
 }
 
-
-
 /* FOOTER */
 footer {
   text-align: center;
@@ -236,4 +234,56 @@ footer {
   border-top: 1px solid var(--border);
   font-size: 0.9rem;
   color: #666;
+}
+/* Tablety pion */
+@media (min-width: 768px) {
+  body {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+
+  header {
+    padding: 2.5rem 0;
+  }
+
+  .logo {
+    gap: 10px;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+  }
+
+  .logo p {
+    font-size: 1.0rem;
+  }
+
+  .btn-primary {
+    padding: 20px 24px;
+    font-size: 24px;
+  }
+
+  .label {
+    font-size: 1.5rem;
+  }
+
+  .intro h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Tablety poziom / małe laptopy */
+@media (min-width: 1024px) {
+  /* style dla szerszych ekranów */
+}
+
+/* Duże desktopy */
+@media (min-width: 1280px) {
+  /* style dla dużych ekranów */
 }
