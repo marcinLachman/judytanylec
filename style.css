@@ -294,18 +294,27 @@ footer {
 
 /* Tablety poziom / małe laptopy */
 @media (min-width: 1024px) {
-  body {
+  /* body {
       font-size: 2.2rem;
       line-height: 2;
     }
-  
+  */
     header {
       padding: 2.5rem 0;
     }
+
+            body {
+              font-size: 1.1rem;
+              line-height: 1.5;
+            }
+      
+            h3 {
+              font-size: 2rem;
+            }
   
-    h3 {
+    /* h3 {
       font-size: 3.5rem;
-    }
+    } */
         .logo {
           gap: 15px;
         }
@@ -329,19 +338,32 @@ footer {
           font-size: 26px;
         }
 
-  .principle {
-    line-height: 2.5;
+
+
+  .hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
   }
 
-  .intro {
+  .image-section {
+    max-width: 500px;
+    height: auto;
+    display: block;
+  }
 
-        padding: 2rem;
-      }
+  .about {
+    flex: 1;
+  }
 
-  
   .intro h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2;
+  }
+
+  .principle {
+    line-height: 2.5;
   }
 
   .help h3 {
@@ -350,10 +372,4 @@ footer {
         .label {
         font-size: 2.0rem;
       }
-}
-
-
-/* Duże desktopy */
-@media (min-width: 1280px) {
-  /* style dla dużych ekranów */
 }
