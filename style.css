@@ -239,7 +239,7 @@ footer {
 /* Tablety pion */
 @media (min-width: 768px) {
   body {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.8;
   }
 
@@ -295,7 +295,7 @@ footer {
 /* Tablety poziom / małe laptopy */
 @media (min-width: 1024px) {
   body {
-      font-size: 2rem;
+      font-size: 2.2rem;
       line-height: 2;
     }
   
@@ -304,9 +304,54 @@ footer {
     }
   
     h3 {
-      font-size: 2.3rem;
+      font-size: 3.5rem;
     }
+        .logo {
+          gap: 15px;
+        }
+    
+        .avatar {
+          width: 100px;
+          height: 100px;
+          font-size: 30px;
+        }
+    
+        .logo h1 {
+          font-size: 2.2rem;
+        }
+    
+        .logo p {
+          font-size: 1.5rem;
+        }
+    
+        .btn-primary {
+          padding: 22px 26px;
+          font-size: 26px;
+        }
+
+  .principle {
+    line-height: 2.5;
+  }
+
+  .intro {
+
+        padding: 2rem;
+      }
+
+  
+  .intro h2 {
+    font-size: 3rem;
+    margin: 2;
+  }
+
+  .help h3 {
+    margin-top: 4rem;
+  }
+        .label {
+        font-size: 2.0rem;
+      }
 }
+
 
 /* Duże desktopy */
 @media (min-width: 1280px) {
