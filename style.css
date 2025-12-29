@@ -182,7 +182,6 @@ header {
 
 .contact h3 {
   margin-top: 0;
-  padding: 0.5rem;
 }
 
 .label {
@@ -223,7 +222,13 @@ header {
     margin: 1rem 0;
   }
 
-.order-small {
+  /* PRICE */
+
+  .order h3 {
+    margin-top: 0;
+  }
+
+.price-small {
   font-size: 0.8rem;
   color: #888585;
 }
@@ -287,6 +292,10 @@ footer {
     margin: 1;
   }
 
+  .price-small {
+    font-size: 1.2rem;
+  }
+
     .help h3 {
       margin-top: 3rem;
     }
@@ -303,14 +312,14 @@ footer {
       padding: 2.5rem 0;
     }
 
-            body {
-              font-size: 1.1rem;
-              line-height: 1.5;
-            }
-      
-            h3 {
-              font-size: 2rem;
-            }
+    body {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
   
     /* h3 {
       font-size: 3.5rem;
@@ -366,10 +375,14 @@ footer {
     line-height: 2.5;
   }
 
+  .price-small {
+    font-size: 1rem;
+  }
+
   .help h3 {
     margin-top: 4rem;
   }
         .label {
-        font-size: 2.0rem;
+        font-size: 1.2rem;
       }
 }
